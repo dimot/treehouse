@@ -11,3 +11,15 @@
  *= require_self
  *= require_tree .
  */
+.status .admin {
+	display: none;
+}
+
+.status.hover {
+	background: black;
+	color: white;
+}
+
+.status.hover .admin {
+	display: inline;
+}
